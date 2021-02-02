@@ -32,6 +32,7 @@ output_files = [
   "./../test/output/output012.txt"
 ]
 
+
 input_files.size.times do |index|
   input_lines = File.readlines(input_files[index])
   output_lines = File.readlines(output_files[index])
