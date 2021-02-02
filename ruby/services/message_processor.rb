@@ -22,7 +22,6 @@ class MessageProcessor
       event_timestamp = DateTime.parse(event_timestamp_string)
       use_case = use_case_for(event_schema, event_action)
       next unless process_message?(event_id, event_schema, event_action, event_timestamp, args)
-
       use_case.call(*args)
       @processed_messages << { id: event_id, schema: event_schema, action: event_action,
                                timestamp: event_timestamp, args: args }
@@ -64,5 +63,5 @@ class MessageProcessor
       }
     }.dig(event_schema.to_sym, event_action.to_sym)
   end
-  # rubocop:enable Metrics/MethodLength
+
 end

@@ -1,3 +1,5 @@
+require_relative 'services/message_processor'
+
 class Solution
   # Essa função recebe uma lista de mensagens, por exemplo:
   #
