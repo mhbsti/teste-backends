@@ -1,6 +1,7 @@
 require_relative '../../use_cases/add_warranty'
 require_relative '../../domain/proposal'
 
+
 describe AddWarranty do
   context 'adicionando garantia' do
     context "e econtra proposta" do

@@ -1,6 +1,7 @@
 require_relative '../../use_cases/create_proposal'
 
 
+
 describe CreateProposal do
   context 'criar proposta' do
     it 'criar uma proposta' do

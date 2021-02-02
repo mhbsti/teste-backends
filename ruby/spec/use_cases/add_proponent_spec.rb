@@ -7,7 +7,7 @@ describe AddProponent do
       it "cria proponente e adciona a proposta" do
         proposal_id = 'proposal_id'
         proponent_id = 'proponent_id'
-        proponent_name = 'Roger'
+        proponent_name = 'Maria'
         proponent_age = 18
         proponent_monthly_income = 5000.0
         proponent_is_main = true

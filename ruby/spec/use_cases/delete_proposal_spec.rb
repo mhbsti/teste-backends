@@ -1,6 +1,7 @@
 require_relative '../../use_cases/delete_proposal'
 require_relative '../../domain/proposal'
 
+
 describe DeleteProposal do
   context 'removendo uma proposta' do
     context 'e econtra proposta' do
